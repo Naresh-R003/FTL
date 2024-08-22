@@ -1,0 +1,154 @@
+.processmain{
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    flex-basis: 50%;
+    gap: 20%;
+    background-color: rgb(2, 147, 137, 0.1);
+    height:60vh;
+   justify-content: center;
+   align-items: center;
+   padding-top: 25px;
+    
+}
+.processHead{
+    color: #0c5c4c;
+    font-size: 35px;
+    font-weight: 500;
+}
+.processPara{
+    color: rgb(64, 62, 62);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttonset{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.left-process{
+    flex-basis: 50%;
+}
+
+.process-text h2{
+    margin-bottom: 15px;
+}
+.process-text p{
+    margin-bottom: 10px;
+}
+
+.process-card{
+    display: flex;
+    border: 1px solid  #029389;
+    border-radius: 30px;
+    gap: 10px;
+   width: auto;
+   margin-bottom: 30px;
+   overflow: hidden;
+ 
+}
+
+.process-card img{
+    width: 20px;
+}
+
+
+
+.processcardimg{
+    width: 80px;
+    height: auto;
+    background-image: linear-gradient(to bottom right, #12aca2, rgb(29, 89, 57));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.process-cardtext h4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.process-cardtext p{
+    font-size: smaller;
+    padding-bottom: 5px;
+
+}
+
+.logotext{
+    border: 2px solid #029389;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 16px;
+    margin: 9px;
+}
+
+@media (max-width: 1200px) {
+
+    .processmain{
+        flex-direction: column;
+      
+    }
+    .left-process{
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .buttonset{
+ 
+        justify-content: center;
+    }
+
+    
+}
+.jobbutton{
+    
+    width: 150px;
+
+    color:#0c5c4c;
+    padding: 15px 5px !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Adding cursor pointer for better UX */
+    border: 1px solid #0c5c4c; /* Remove default button styling */
+    border-radius: 30px;
+    text-align: center;
+    margin: 18px 40px;
+    font-weight: 600;
+
+
+}
+
+.jobbutton:hover{
+background-color: rgb(235, 229, 229);
+transform: scale(1.03);
+}
+
+.jobdiv{
+margin-bottom: 50px;
+}
+.jobButton1{
+    height: fit-content !important;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #0c5c4c;
+    text-align: center;
+    margin: 18px 40px;
+  
+}
+.jobButton1:hover{
+    transform: scale(1.03);
+    background-color: #029389;
+
+}

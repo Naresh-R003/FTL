@@ -1,0 +1,48 @@
+.successMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner img{
+    width: 80px;
+}
+
+.Successbtn{
+     width: 100px;
+     margin-top: 30px;
+  background-color: rgb(31, 87, 72);
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+ }
+
+
+
+
+
+.innertext{
+    text-align: center;
+    padding-top: 10px;
+    color: #bfbbbb;
+}
+
+
+
+.tick{
+    margin-bottom: 30px;
+   
+}
+

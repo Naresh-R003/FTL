@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.LandingNav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    position: fixed;
+    top: -15px;
+    z-index: 9999;
+    background-color: white;
+    
+}
+/* this is chumma  */
+
+.logs, .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+.logs {
+    width: 300px;
+    letter-spacing: 1.5px;
+}
+
+.links {
+    width: 500px;
+    color: rgb(100, 98, 98);
+    letter-spacing: 1.5px;
+}
+.link{
+   color: rgb(100, 98, 98); ;
+}
+.links .link:hover {
+    text-decoration: none;
+    color: #0c5c4c;
+    font-weight: 500;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logoContainer {
+    margin-left: 50px;
+}
+
+.login {
+    color: #0c5c4c;
+    font-weight: 500;
+}
+
+.getStarted {
+    background-color: #0c5c4c;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.getStarted:hover {
+    background-color: #339380;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 60px; /* Adjust based on your design */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none; /* Add this line */
+    color: inherit; /* Add this line */
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: #0c5c4c;
+}
+.navlinks{
+   text-decoration: none;
+   color: rgb(100, 98, 98);}
+.navlinks:hover{
+  color: #0c5c4c;
+}

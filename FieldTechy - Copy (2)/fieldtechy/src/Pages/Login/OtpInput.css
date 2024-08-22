@@ -1,0 +1,108 @@
+
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .otpContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 500px;
+gap:30px;
+margin-top: 70px;
+   }
+  
+
+ 
+.otpButton{
+    background-color: #0c5c4c;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    font-style: bold;
+    
+}
+span{
+    color:  #0c5c4c;
+font-weight: 700;
+font-style: bold;
+}
+.otpLogo{
+    width: 80px;
+}
+.otpHeader{
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.otpPara{
+    color: rgb(28, 25, 25);
+     text-align: center;
+      color:rgb(95, 89, 89);
+padding: 5px;
+    font-weight: 400;
+}
+.smsIcon{
+    background-color: #0c5c4c;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+}
+.smsContainer{
+
+    padding:10px 10px 10px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid  #0c5c4cdf;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+    
+}
+.smsContainer:hover{
+    background-color:#b5e6dc82;
+
+}
+
+.smsemail{
+    padding-left: 10px;
+}
+.smsOuter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smsContent{
+    padding-right: 50px !important;
+    
+}
+input.smsinp{
+    margin-right: 50px !important;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
